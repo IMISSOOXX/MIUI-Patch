@@ -116,5 +116,5 @@ MIUI对系统做了保护措施，如果你篡改了系统文件，比如删除�
 return null
 ```
 ## 联系作者
-- 酷安网 @蓝色的星期五
+- 酷安网 @蓝色星期五
 - [![](http://rescdn.qqmail.com/zh_CN/htmledition/images/function/qm_open/ico_mailme_02.png)](http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=8JmUlZGTnJ_FlLCBgd6Tn50)
