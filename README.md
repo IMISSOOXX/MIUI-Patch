@@ -115,6 +115,36 @@ MIUI对系统做了保护措施，如果你篡改了系统文件，比如删除�
 方法：.method private checkSystemSelfProtection(Z)V
 return null
 ```
+### 可删除的APK列表
+| APK名称 | 备注 | 关联组件 |
+|:----:|:----:|:----:|
+|BasicDreams.apk|动态壁纸||
+|Galaxy4.apk|同上||
+|HoloSpiralWallpaper.apk|同上||
+|LiveWallpapers.apk|同上||
+|NoiseField.apk|同上||
+|PhaseBeam.apk|同上||
+|MiWallpaper.apk|小米百变壁纸|ThemeManager.apk|
+|MiuiSuperMarket.apk|应用商店|ThemeManager.apk|
+|GameCenter.apk|游戏中心||
+|MiGameCenterSDKService.apk|小米游戏自动登录组件|GameCenter.apk|
+|MiuiVideo.apk|小米视频||
+|Music.apk|小米音乐||
+|MusicFX.apk|均衡器|Music.apk、Settings.apk|
+|PaymentService.apk|米币支付服务||
+|Updater.apk|系统更新|Settings.apk|
+|Browser.apk|小米浏览器||
+|BookmarkProvider.apk|书签|Browser.apk|
+|MiLivetalk.apk|小米电话加油包|Contacts.apk|
+|VirtualSim.apk|虚拟SIM|Contacts.apk|
+|PicoTts.apk|TTs文字转语音引擎，不支持中文|Settings.apk、/system/tts|
+|XiaomiVip.apk|小米VIP|XiaomiAccount.apk|
+|XMPass.apk|小米卡包||
+|VipAccount.apk|我的小米|XiaomiAccount.apk、XiaomiVip.apk|
+|VoiceAssist.apk|语音助手||
+|PhotoTable.apk|照片屏幕保护程序||
+|SogouInput.apk|搜狗输入法|系统唯一内置的输入法引擎|
+- 你可以按需删除以上程序，对于存在关联组件的APK，你须对其关联组件作相应的处理，否则会发生FC等现象。
 ## 联系作者
 - 酷安网 @蓝色星期五
 - [![](http://rescdn.qqmail.com/zh_CN/htmledition/images/function/qm_open/ico_mailme_02.png)](http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=8JmUlZGTnJ_FlLCBgd6Tn50)
