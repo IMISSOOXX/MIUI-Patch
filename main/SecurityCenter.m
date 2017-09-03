@@ -8,6 +8,9 @@
 //移除安全体检（立即优化）完成页的资讯推荐
 同上，preference_key_information_setting_close
 
+//移除游戏加速广告（游戏排行）
+同上，display_gamebooster_Ads 、display_gamebooster_xunyou
+
 /移除应用管理的资源推荐
 代码路径：com/miui/appmanager
 代码：am_ads_enable

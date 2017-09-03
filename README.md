@@ -134,6 +134,7 @@ return null
 |PaymentService.apk|米币支付服务||
 |Updater.apk|系统更新|Settings.apk|
 |Browser.apk|小米浏览器||
+|MiWebView.apk|疑似小米浏览器反馈组件|Browser.apk|
 |BookmarkProvider.apk|书签|Browser.apk|
 |MiLivetalk.apk|小米电话加油包|Contacts.apk|
 |VirtualSim.apk|虚拟SIM|Contacts.apk|
